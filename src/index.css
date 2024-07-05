@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active span:first-child {
+  transition: all 300ms;
+  color: rgb(94, 69, 206);
+}
