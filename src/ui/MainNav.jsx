@@ -3,7 +3,6 @@ import {
   HiOutlineHome,
   HiOutlineOfficeBuilding,
   HiOutlineUser,
-  HiOutlineUsers,
 } from "react-icons/hi";
 import { NavLink } from "react-router-dom";
 

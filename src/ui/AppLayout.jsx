@@ -9,7 +9,7 @@ function AppLayout() {
         <Sidebar></Sidebar>
       </div>
       <Header></Header>
-      <main className="bg-slate-200">
+      <main className="px-20 py-12">
         <Outlet />
       </main>
     </div>
