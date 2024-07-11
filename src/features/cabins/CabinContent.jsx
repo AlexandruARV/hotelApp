@@ -30,7 +30,7 @@ function CabinContent() {
     queryKey: ["cabins"],
     queryFn: getCabins,
   });
-  console.log(cabins);
+  // console.log(cabins);
 
   if (isLoading) return <div>Loading...</div>;
 

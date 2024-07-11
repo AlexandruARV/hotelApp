@@ -3,7 +3,7 @@ import { deleteCabin as deleteCabinApi } from "../../services/apiCabins";
 
 function CabinRow({ cabin }) {
   const queryClient = useQueryClient();
-  console.log(queryClient);
+  // console.log(queryClient);
 
   const { mutate: deleteCabin } = useMutation({
     mutationFn: deleteCabinApi,
