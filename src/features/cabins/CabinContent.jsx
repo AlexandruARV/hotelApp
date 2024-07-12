@@ -36,7 +36,7 @@ function CabinContent() {
 
   return (
     <div className="border-[1px] rounded-md border-stone-200">
-      <div className="grid  grid-cols-[0.6fr_1.8fr_2.2fr_1fr_1fr_1fr] px-[1.4rem] py-[1rem]">
+      <div className="grid  grid-cols-[0.6fr_1.8fr_2.2fr_1fr_1fr_1fr] px-[1.4rem] py-[1rem] gap-[2.4rem] font-medium bg-slate-50 border-b-2 border-stone-100">
         <div></div>
         <div>CABIN</div>
         <div>CAPACITY</div>
@@ -44,9 +44,11 @@ function CabinContent() {
         <div>DISCOUNT</div>
         <div></div>
       </div>
-      {cabins.map((cabin) => (
-        <CabinRow key={cabin.name} cabin={cabin} />
-      ))}
+      <ul className="divide-y-2 divide-stone-100">
+        {cabins.map((cabin) => (
+          <CabinRow key={cabin.name} cabin={cabin} />
+        ))}
+      </ul>
     </div>
   );
 }

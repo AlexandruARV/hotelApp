@@ -6,7 +6,9 @@
   transition: all 300ms;
   color: rgb(94, 69, 206);
 }
-
+.active {
+  background-color: rgb(246, 246, 246);
+}
 .input {
   @apply border-stone-300 text-base border-[1px] rounded-md px-3 py-2;
 }

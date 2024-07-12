@@ -1,5 +1,5 @@
 function Header() {
-  return <div className="bg-red-600">Header</div>;
+  return <div className="  border-stone-50 border-b-2 h-20">Header</div>;
 }
 
 export default Header;

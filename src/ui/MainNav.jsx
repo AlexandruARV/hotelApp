@@ -9,10 +9,10 @@ import { NavLink } from "react-router-dom";
 function MainNav() {
   return (
     <nav>
-      <ul className="flex flex-col gap-8">
+      <ul className="flex flex-col gap-4">
         <li>
           <NavLink
-            className="text-xl font-semibold flex items-center gap-2 text-stone-400"
+            className="text-base font-semibold flex items-center gap-2 text-stone-400 px-2 py-2"
             to="/"
           >
             <span>
@@ -23,7 +23,7 @@ function MainNav() {
         </li>
         <li>
           <NavLink
-            className="text-xl font-semibold flex items-center gap-2  text-stone-400"
+            className="text-base  font-semibold flex items-center gap-2  text-stone-400 px-2 py-2"
             to="cabins"
           >
             <span>
@@ -34,7 +34,7 @@ function MainNav() {
         </li>
         <li>
           <NavLink
-            className="text-xl font-semibold flex items-center gap-2  text-stone-400"
+            className="text-base  font-semibold flex items-center gap-2  text-stone-400 px-2 py-2"
             to="bookings"
           >
             <span>
@@ -45,7 +45,7 @@ function MainNav() {
         </li>
         <li>
           <NavLink
-            className="text-xl font-semibold flex items-center gap-2  text-stone-400"
+            className="text-base  font-semibold flex items-center gap-2  text-stone-400 px-2 py-2"
             to="users"
           >
             <span>
