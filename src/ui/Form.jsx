@@ -25,8 +25,9 @@ function Form() {
 
   function onSubmit(data) {
     console.log(data);
+    console.log(data.image[0]);
     console.log(getValues);
-    mutate({ ...data, image: data.at(0) });
+    mutate({ ...data, image: data.image[0] });
   }
 
   function onError(errors) {
